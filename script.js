@@ -3,6 +3,6 @@ function checked_email(){
     let email=document.getElementById('email').value;
     let text=document.getElementById('text');
     
-    let pattern_email=/^[^]+@[^]\.[a-z]{2,3}$/;
+    let pattern_email=/^[^]+@[^]+\.[a-z]{2,3}$/;
     
 }
