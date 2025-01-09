@@ -4,5 +4,7 @@ function checked_email(){
     let text=document.getElementById('text');
     
     let pattern_email=/^[^]+@[^]+\.[a-z]{2,3}$/;
-    
+    if(email.match(pattern_email)){
+        form.classList.add('valid');
+    }
 }
