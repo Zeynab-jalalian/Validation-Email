@@ -15,4 +15,9 @@ function checked_email(){
         text.innerHTML="ایمیل شما معتبر نیست";
         text.style.color='red';
     }
+    if(email==''){
+        form.classList.remove('invalid');
+        form.classList.remove('valid');
+        text.innerHTML="";
+    }
 }
